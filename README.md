@@ -4,13 +4,31 @@ Welcome to the Text Encryption Application! This application uses the Caesar Cip
 
 ## Table of Contents
 
+- [Caesar Cipher Technique](#caesar-cipher-technique)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Options](#options)
 - [Examples](#examples)
+  - [Encrypting a Message](#encrypting-a-message)
+  - [Decrypting a Message](#decrypting-a-message)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+
+
+## Caesar Cipher Technique
+
+The Caesar Cipher is a basic encryption method used to secure messages. It works by shifting each letter in the plaintext by a fixed number of positions down the alphabet. For example, with a shift of 3:
+
+- A becomes D
+- B becomes E
+- C becomes F
+
+To decrypt the message, you shift the letters in the opposite direction by the same number. This technique is named after Julius Caesar, who used it to protect his private communications.
+
+The Caesar Cipher is simple and easy to implement but is not very secure by modern standards as it is easily crackable. It serves as a good introductory example of classical cryptography.
+
 
 ## Features
 
@@ -25,8 +43,8 @@ To use this application, you'll need to have Python installed on your machine. F
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/text-encryption-app.git
-    cd text-encryption-app
+    git clone https://github.com/Sanders003/text_encryption.git
+    cd text_encryption
     ```
 
 2. **Install dependencies:**
@@ -46,9 +64,9 @@ python cipher.py
 - To decrypt a text, enter `d`.
 - To exit the application, enter any other key.
 
-# Examples
+## Examples
 
-## Encrypting a Message
+### Encrypting a Message
 
 1. Run the application:
     ```bash
@@ -68,7 +86,7 @@ python cipher.py
     After Encryption the text is lipps asvph
     ```
 
-## Decrypting a Message
+### Decrypting a Message
 
 1. Run the application:
     ```bash
@@ -88,7 +106,7 @@ python cipher.py
     After Decryption the text is hello world
     ```
 
-# Contributing
+## Contributing
 
 Contributions are welcome! If you have any ideas for improvements or new features, please open an issue or submit a pull request. Here's how you can contribute:
 
@@ -98,14 +116,14 @@ Contributions are welcome! If you have any ideas for improvements or new feature
 4. Push to the branch (`git push origin feature-name`).
 5. Open a pull request.
 
-# License
+## License
 
 This project is an open source application.
 
-# Contact
+## Contact
 
 If you have any questions or suggestions, feel free to reach out to me at [22cs01004@iitbbs.com](mailto:22cs01004@iitbbs.com)
-Or you can comment any suggestions in the code after 50th line in python file(caesar_en.py)
+Or comment your suggestions in the code after the 50th line in the 'caesar_en.py' file.
 
 ---
 

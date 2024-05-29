@@ -104,7 +104,8 @@ This project is an open source application.
 
 # Contact
 
-If you have any questions or suggestions, feel free to reach out to me at [22cs01004@iitbbs.com](mailto:22cs01004@iitbbs.com) or comment down the code after 42nd line
+If you have any questions or suggestions, feel free to reach out to me at [22cs01004@iitbbs.com](mailto:22cs01004@iitbbs.com)
+Or you can comment any suggestions in the code after 50th line in python file(caesar_en.py)
 
 ---
 
